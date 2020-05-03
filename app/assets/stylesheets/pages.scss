@@ -1,3 +1,41 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+.jumbotron {
+    background: url(http://portfolio-rails-2633.herokuapp.com/assets/home-db103bf75e724b89102c607792424914.jpg) center center;
+    background-size: cover;
+    min-height: 600px;
+    width: 100%;  
+
+    .container {
+        color: white;
+        text-align: right;
+        width: 800px;    
+
+        h2 {
+            font-size: 48px;
+        }
+
+        span {
+            color: black;
+            background-color: white;
+            padding: 0 20px;
+        }
+
+        button {
+            background-color: black;
+            color: white;
+            width: 200px;
+            height: 60px;
+            border: none;
+            font-size: 18px;
+            opacity: 0.8;
+            margin: 40px 0;
+
+            a {
+                color: white;
+            }
+        }
+    }
+}
