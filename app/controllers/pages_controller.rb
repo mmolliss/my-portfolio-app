@@ -1,6 +1,11 @@
 class PagesController < ApplicationController
     def welcome
-        puts 'Mierda You'
+    end
+
+    def portfolio
+    end
+
+    def contact
     end
 
     def about

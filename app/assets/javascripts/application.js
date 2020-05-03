@@ -1,5 +1,10 @@
+console.log('MIERDACA1');
+
 $(function() {
-    $('.banner').unslider();
+    console.log('MIERDACA');
+    $('.banner').unslider({
+        autoplay: true,
+    });
 });
 
 // This is a manifest file that'll be compiled into application.js, which will include all the files

@@ -17,13 +17,21 @@
       <header>
         <nav>
           <ul>
-            <li>Home</li>
-            <li>Portfolio</li>
-            <li>Blog</li>
-            <li>About</li>
+            <li>
+              <%= link_to "Home", welcome_path(@welcome) %>
+            </li>
+            <li>
+              <%= link_to "Portfolio", portfolio_path(@portfolio) %>
+            </li>
+            <li>
+              <%= link_to "About", about_path(@about) %>
+            </li>
+            <li>
+              <%= link_to "Contact", contact_path(@contact) %>
+            </li>
           </ul>
         </nav>
-        <h1>Nuttis Pruttis</h1>
+        <h1>Malin</h1>
       </header>
       
       <%= yield %>
