@@ -14,30 +14,59 @@
  *= require_self
  */
 
- .banner { position: relative; overflow: auto; }
-.banner li { list-style: none; }
-.banner ul li { float: left; }
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+.banner { 
+    position: relative; overflow: auto;
+}
+
+.banner li { 
+    list-style: none;
+}
+
+.banner ul li { 
+    float: left;
+}
 
 .header {
     display: flex;
     align-items: center;
 }
 
+.content {
+    min-height: 500px;
+}
+
+.navbar {
+    background-color: white;
+    font-weight: bold;
+
+    a {
+        color: black;
+    }
+}
+
 .header .name {
     margin-bottom: 0;
     margin-left: auto;
     margin-right: 20px;
+    font-weight: bold;
 }
 
 .footer {
     background-color: white;
-    height: 200px;
-    text-align: right;
+    text-align: center;
     width: 100%;
 }
 
 .footer .container {
-    padding: 0 200px 0 280px;
+    padding: 20px 0 0 0;
     width: 100%;
-}
+    font-size: 25px;
+    line-height: 1.42857143;
 
+    a {
+        color: black;
+    }
+}
